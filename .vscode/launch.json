@@ -1,0 +1,46 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "carbon_footprint_calc",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/entry_points/main.dart"
+        },
+        {
+            "name": "carbon_footprint_calc (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "carbon_footprint_calc (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "side_effect_bloc",
+            "cwd": "side_effect_bloc",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "side_effect_bloc (profile mode)",
+            "cwd": "side_effect_bloc",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "side_effect_bloc (release mode)",
+            "cwd": "side_effect_bloc",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
