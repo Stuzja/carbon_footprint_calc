@@ -1,4 +1,7 @@
 import 'package:auto_route/auto_route.dart';
+import 'package:carbon_footprint_calc/domain/entity/question/question_entity.dart';
+import 'package:carbon_footprint_calc/navigation/auto_router.gr.dart';
+import 'package:carbon_footprint_calc/pages/question/question_page.dart';
 import 'package:carbon_footprint_calc/utils/app_colors.dart';
 import 'package:carbon_footprint_calc/utils/app_images.dart';
 import 'package:carbon_footprint_calc/utils/app_text_styles.dart';
@@ -42,7 +45,9 @@ class HomePage extends StatelessWidget {
                 children: [
                   FootprintButton(
                     text: 'Начать опрос',
-                    onPressed: () {},
+                    onPressed: () {
+                      context.router.push(QuestionRoute(indQuestion: 0));
+                    },
                   ),
                 ],
               ),
