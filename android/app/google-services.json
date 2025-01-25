@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1002265956151",
+    "project_id": "footprint-calc-8ebb6",
+    "storage_bucket": "footprint-calc-8ebb6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002265956151:android:b3b58db93f3527bf2614b2",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-kFDOaOhTzMklnhs3rjlMDZ3FKzd0R5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
