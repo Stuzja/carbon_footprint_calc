@@ -1,4 +1,4 @@
-
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:carbon_footprint_calc/di/locator.dart';
 import 'package:carbon_footprint_calc/domain/repository/snack_bar/snack_bar_repository.dart';
@@ -13,7 +13,7 @@ final GlobalKey<ScaffoldMessengerState> snackbarKey =
 Future<void> startApp() async {
   WidgetsFlutterBinding.ensureInitialized();
   await configureDependencies();
-  
+    await Firebase.initializeApp(); // Инициализация Firebase
   getIt.registerSingleton<AppRouter>(AppRouter());
   await _subscribeToGlobalSnackbars();
   runApp(const ProviderScope(child: CarbonFootprintCalcApp()));
